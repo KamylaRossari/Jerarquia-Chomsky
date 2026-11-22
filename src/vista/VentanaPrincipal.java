@@ -6,6 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import vista.PanelNivel3;
+import vista.PanelNivel2;
 
 public class VentanaPrincipal extends JFrame {
 
@@ -23,8 +24,7 @@ public class VentanaPrincipal extends JFrame {
 
        PanelNivel3 nivel3 = new PanelNivel3();
 
-        JPanel nivel2 = new JPanel();
-        nivel2.add(new JLabel("Nivel 2 - Automata de Pila"));
+        PanelNivel2 nivel2 = new PanelNivel2();
 
         JPanel nivel1 = new JPanel();
         nivel1.add(new JLabel("Nivel 1 - LBA"));

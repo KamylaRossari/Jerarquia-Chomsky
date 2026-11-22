@@ -152,7 +152,7 @@ public class PanelNivel1 extends JPanel {
         }
 
         txtPasos.append(
-                "\n✅ Cadena aceptada");
+                "\n Cadena aceptada");
     }
 
     private void mostrarCinta(

@@ -97,12 +97,12 @@ public class PanelNivel3 extends JPanel {
         if (estado.equals("q1")) {
 
             txtResultado.append(
-                    "\n✅ Cadena aceptada");
+                    "\n Cadena aceptada");
 
         } else {
 
             txtResultado.append(
-                    "\n❌ Cadena rechazada");
+                    "\n Cadena rechazada");
         }
     }
 }

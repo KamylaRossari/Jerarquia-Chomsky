@@ -124,12 +124,12 @@ public class PanelNivel2 extends JPanel {
         if (pila.isEmpty()) {
 
             txtOperaciones.append(
-                    "\n\n✅ Cadena aceptada");
+                    "\n\n Cadena aceptada");
 
         } else {
 
             txtOperaciones.append(
-                    "\n\n❌ Cadena rechazada");
+                    "\n\n Cadena rechazada");
         }
     }
 

@@ -2,16 +2,16 @@ Simulador de la Jerarquía de Chomsky
 Descripción: 
 ======================================
 Este proyecto consiste en el desarrollo de una aplicación gráfica en Java Swing que permite visualizar y simular el comportamiento de los modelos computacionales asociados a los cuatro niveles de la Jerarquía de Chomsky.
-========================================================================================================================
+======================================
 Autor: KAMYLA GABRIELA ROSARIO CANO
-========================================================================================================================
+======================================
 Tecnologías Utilizadas:
 - Java
 - Java Swing
 - Apache NetBeans
 - Git
 - GitHub
-=========================================================================================================================
+========================
 Estructura del Proyecto
 ========================
 src
@@ -27,13 +27,13 @@ src
 │ └── PanelNivel0.java
 │
 └── modelo
-=============================================================================================================================
+==============================================================
 Requisitos para ejecutar el proyecto es necesario contar con:
-===============================================================
+==============================================================
 - Java JDK 17 o superior
 - Apache NetBeans (recomendado ya que fue el utilizado para este proyecto)
 
-=============================================================================================================================
+===========
 Instalación
 ===========
 1. Clonar el repositorio
@@ -50,7 +50,7 @@ Ejecutar la clase principal:
 
 La aplicación contiene cuatro módulos independientes correspondientes a los niveles de la Jerarquía de Chomsky.
 
-=============================================================================================================================
+=============================
 Nivel 3 – Lenguajes Regulares
 =============================
 Modelo Computacional
@@ -71,7 +71,7 @@ Cuando lee un símbolo a pasa al estado q1.
 
 Posteriormente puede consumir cero o más símbolos b permaneciendo en el mismo estado.
 
-=============================================================================================================================
+=======================================
 Nivel 2 – Lenguajes Libres de Contexto
 =======================================
 Modelo Computacional
@@ -94,7 +94,7 @@ Pop(a)
 
 La cadena será aceptada únicamente cuando la pila quede vacía al finalizar el procesamiento.
 
-=============================================================================================================================
+=========================================
 Nivel 1 – Lenguajes Sensibles al Contexto
 =========================================
 Modelo Computacional
@@ -119,7 +119,7 @@ c → Z
 
 El cabezal se desplaza tanto hacia la derecha como hacia la izquierda sobre la cinta para representar el comportamiento de un Autómata Linealmente Acotado.
 
-=============================================================================================================================
+===========================
 Nivel 0 – Máquina de Turing
 ===========================
 Modelo Computacional
